@@ -137,11 +137,11 @@ describe('Tier 1 — Feature 03: Enterprise Brand Identity & Assets (F3)', () =>
     const htmlPath = path.resolve(process.cwd(), 'index.html');
     const htmlContent = fs.readFileSync(htmlPath, 'utf-8');
 
-    // Title starts with or contains AeroPulse
-    expect(htmlContent).toMatch(/<title>AeroPulse/);
+    // Title starts with or contains AirWay
+    expect(htmlContent).toMatch(/<title>AirWay/);
 
-    // og:site_name metadata is AeroPulse
-    expect(htmlContent).toContain('property="og:site_name" content="AeroPulse"');
+    // og:site_name metadata is AirWay
+    expect(htmlContent).toContain('property="og:site_name" content="AirWay"');
 
     // Favicon is present
     expect(htmlContent).toContain('rel="icon"');

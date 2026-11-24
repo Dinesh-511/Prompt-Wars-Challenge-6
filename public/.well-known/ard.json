@@ -1,8 +1,8 @@
 {
   "$schema": "https://agentic-resource-discovery.org/schemas/v0.91/ard.json",
   "version": "0.91",
-  "title": "BreatheWay Clean Air Navigation & Telemetry Resource Directory",
-  "description": "Agentic Resource Directory for the BreatheWay hyperlocal air quality and personal exposure management platform.",
+  "title": "AirWay Clean Air Navigation & Telemetry Resource Directory",
+  "description": "Agentic Resource Directory for the AirWay hyperlocal air quality and personal exposure management platform.",
   "entries": [
     {
       "identifier": "urn:air:prompt-wars-challenge-6.vercel.app:dashboard",

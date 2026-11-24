@@ -1,12 +1,12 @@
 // ============================================================
 // src/lib/constants/translations.ts
-// Multilingual localized strings (EN, HI, AR, ES) — AeroPulse
+// Multilingual localized strings (EN, HI, AR, ES) — AirWay
 // Enterprise atmospheric intelligence & safe passage
 // ============================================================
 
 export const TRANSLATIONS: Record<string, Record<string, string>> = {
   en: {
-    appTitle: 'AeroPulse',
+    appTitle: 'AirWay',
     appSubtitle: 'Enterprise atmospheric intelligence & low-exposure urban navigation',
     tabDashboard: 'Air Telemetry',
     tabRoutine: 'Routine Optimizer',
@@ -29,7 +29,7 @@ export const TRANSLATIONS: Record<string, Record<string, string>> = {
     pledged: 'Pledged Active',
   },
   hi: {
-    appTitle: 'एरोपल्स (AeroPulse)',
+    appTitle: 'एयरवे (AirWay)',
     appSubtitle: 'प्रदूषित शहरों में सुरक्षित आवागमन और वायुमंडलीय बुद्धिमत्ता प्रणाली',
     tabDashboard: 'वायु टेलीमेट्री',
     tabRoutine: 'दैनिक रूटीन अनुकूलक',
@@ -52,7 +52,7 @@ export const TRANSLATIONS: Record<string, Record<string, string>> = {
     pledged: 'सक्रिय प्रतिज्ञा',
   },
   ar: {
-    appTitle: 'إيروبالس (AeroPulse)',
+    appTitle: 'إير واي (AirWay)',
     appSubtitle: 'الممر الآمن ومنظومة الاستشعار الذكي للهواء النقي في المدن الملوثة',
     tabDashboard: 'بيانات الهواء',
     tabRoutine: 'جدول الروتين اليومي',
@@ -75,7 +75,7 @@ export const TRANSLATIONS: Record<string, Record<string, string>> = {
     pledged: 'مشارك بالتعهد',
   },
   es: {
-    appTitle: 'AeroPulse',
+    appTitle: 'AirWay',
     appSubtitle: 'Inteligencia atmosférica y pasaje seguro a través de ciudades contaminadas',
     tabDashboard: 'Telemetría del Aire',
     tabRoutine: 'Optimizador de Rutina',

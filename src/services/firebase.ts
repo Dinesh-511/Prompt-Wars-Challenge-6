@@ -34,9 +34,9 @@ export interface FirebaseConfig {
 
 export const firebaseConfig: FirebaseConfig = {
   apiKey: import.meta.env.VITE_FIREBASE_API_KEY || 'AIzaSyAV1YY4hLnmuxdzKIIjUttOh4ISKQnSK7Q',
-  authDomain: import.meta.env.VITE_FIREBASE_AUTH_DOMAIN || 'breatheway.firebaseapp.com',
-  projectId: import.meta.env.VITE_FIREBASE_PROJECT_ID || 'breatheway',
-  storageBucket: import.meta.env.VITE_FIREBASE_STORAGE_BUCKET || 'breatheway.firebasestorage.app',
+  authDomain: import.meta.env.VITE_FIREBASE_AUTH_DOMAIN || 'airway.firebaseapp.com',
+  projectId: import.meta.env.VITE_FIREBASE_PROJECT_ID || 'airway',
+  storageBucket: import.meta.env.VITE_FIREBASE_STORAGE_BUCKET || 'airway.firebasestorage.app',
   messagingSenderId: import.meta.env.VITE_FIREBASE_MESSAGING_SENDER_ID || '233090567083',
   appId: import.meta.env.VITE_FIREBASE_APP_ID || '1:233090567083:web:751525d4ec9c12518660ee',
 };
@@ -59,9 +59,9 @@ try {
       // Initialize with config if provided
       app = initializeApp({
         apiKey: firebaseConfig.apiKey || 'AIzaSyAV1YY4hLnmuxdzKIIjUttOh4ISKQnSK7Q',
-        authDomain: firebaseConfig.authDomain || 'breatheway.firebaseapp.com',
-        projectId: firebaseConfig.projectId || 'breatheway',
-        storageBucket: firebaseConfig.storageBucket || 'breatheway.firebasestorage.app',
+        authDomain: firebaseConfig.authDomain || 'airway.firebaseapp.com',
+        projectId: firebaseConfig.projectId || 'airway',
+        storageBucket: firebaseConfig.storageBucket || 'airway.firebasestorage.app',
         messagingSenderId: firebaseConfig.messagingSenderId || '233090567083',
         appId: firebaseConfig.appId || '1:233090567083:web:751525d4ec9c12518660ee',
       });
@@ -75,7 +75,7 @@ try {
     }
   }
 } catch (err) {
-  console.warn('[BreatheWay Firebase] Initialized in local resilient fallback mode:', err);
+  console.warn('[AirWay Firebase] Initialized in local resilient fallback mode:', err);
 }
 
 export { auth as firebaseAuth, db as firebaseDb };
@@ -101,10 +101,11 @@ export const firebaseAuthService = {
         if (
           firebaseErr.code === 'auth/configuration-not-found' ||
           firebaseErr.code === 'auth/operation-not-allowed' ||
+          email.includes('airway.org') ||
           email.includes('aeropulse.org') ||
           email.includes('breatheway.org')
         ) {
-          console.warn('[BreatheWay Auth] Falling back to prototype authentication session:', firebaseErr.code || firebaseErr.message);
+          console.warn('[AirWay Auth] Falling back to prototype authentication session:', firebaseErr.code || firebaseErr.message);
           const name = email.includes('chen')
             ? 'Dr. Sarah Chen'
             : email.split('@')[0].replace('.', ' ').replace(/\b\w/g, (c) => c.toUpperCase());
@@ -137,10 +138,11 @@ export const firebaseAuthService = {
         if (
           firebaseErr.code === 'auth/configuration-not-found' ||
           firebaseErr.code === 'auth/operation-not-allowed' ||
+          email.includes('airway.org') ||
           email.includes('aeropulse.org') ||
           email.includes('breatheway.org')
         ) {
-          console.warn('[BreatheWay Auth] Falling back to prototype registration session:', firebaseErr.code || firebaseErr.message);
+          console.warn('[AirWay Auth] Falling back to prototype registration session:', firebaseErr.code || firebaseErr.message);
           return { user: null, fallbackName: displayName };
         }
         throw err;

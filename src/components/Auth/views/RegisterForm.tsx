@@ -51,7 +51,7 @@ export function RegisterForm({
         required
         value={email}
         onChange={(e) => setEmail(e.target.value)}
-        placeholder="maya@aeropulse.org"
+        placeholder="maya@airway.org"
         leftIcon={<UserIcon size={16} />}
       />
 

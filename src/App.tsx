@@ -1,6 +1,6 @@
 // ============================================================
 // src/App.tsx
-// Modern Enterprise AppShell: AeroPulse Full-Width Architecture
+// Modern Enterprise AppShell: AirWay Full-Width Architecture
 // Premier Top-Navigation SaaS Platform (Linear/Vercel/Stripe style)
 // Optimized for Google PageSpeed Insights 100 Score
 // ============================================================
@@ -125,7 +125,7 @@ const AppShell = memo(function AppShell() {
               <span>
                 Powered by{' '}
                 <span className="font-semibold text-slate-700 dark:text-slate-300">
-                  AeroPulse Community Engine (BreatheWay™ Heritage)
+                  AirWay Community Engine
                 </span>
               </span>
               <span className="hidden sm:inline text-slate-300 dark:text-slate-700" aria-hidden="true">•</span>

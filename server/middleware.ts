@@ -12,6 +12,8 @@ const ALLOWED_ORIGINS = [
   'http://localhost:5173',
   'http://localhost:3001',
   'http://localhost:4173',
+  'https://airway.web.app',
+  'https://airway.firebaseapp.com',
   'https://breatheway.web.app',
   'https://breatheway.firebaseapp.com',
 ];

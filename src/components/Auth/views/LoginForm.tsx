@@ -80,7 +80,7 @@ export function LoginForm({
         required
         value={email}
         onChange={(e) => setEmail(e.target.value)}
-        placeholder="analyst@aeropulse.org"
+        placeholder="analyst@airway.org"
         leftIcon={<UserIcon size={16} />}
       />
 

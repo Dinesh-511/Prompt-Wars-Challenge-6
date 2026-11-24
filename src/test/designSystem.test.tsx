@@ -20,18 +20,18 @@ import {
 describe('Milestone 1 Design System & Brand Asset Infrastructure', () => {
   describe('Centralized BRANDING Configuration', () => {
     it('preserves exact productName for test assertions', () => {
-      expect(BRANDING.productName).toBe('AeroPulse');
+      expect(BRANDING.productName).toBe('AirWay');
     });
 
     it('defines companyName and enterprise suiteName', () => {
-      expect(BRANDING.companyName).toBe('AeroPulse Technologies Inc.');
+      expect(BRANDING.companyName).toBe('AirWay Technologies Inc.');
       expect(BRANDING.suiteName).toContain('Enterprise');
     });
 
     it('provides contact details conforming to interface contracts', () => {
       expect(BRANDING.contact).toBeDefined();
-      expect(BRANDING.contact.email).toBe('contact@aeropulse.org');
-      expect(BRANDING.contact.support).toBe('support@aeropulse.org');
+      expect(BRANDING.contact.email).toBe('contact@airway.org');
+      expect(BRANDING.contact.support).toBe('support@airway.org');
     });
 
     it('contains comprehensive design token hierarchy', () => {
