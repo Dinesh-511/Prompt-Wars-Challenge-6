@@ -1,29 +1,29 @@
 // ============================================================
 // src/config/branding.ts
-// Centralized Rebranded Configuration: AeroPulse
+// Centralized Rebranded Configuration: AirWay
 // Enterprise Atmospheric Intelligence & Safe Passage Platform
 // ============================================================
 
 export const BRANDING = {
-  productName: 'AeroPulse',
-  productNameShort: 'AeroPulse',
-  suiteName: 'AeroPulse Enterprise Clean Air & Exposure Intelligence Platform',
+  productName: 'AirWay',
+  productNameShort: 'AirWay',
+  suiteName: 'AirWay Enterprise Clean Air & Exposure Intelligence Platform',
   tagline: 'Precision atmospheric intelligence • Low-exposure urban navigation & resilience',
-  companyName: 'AeroPulse Technologies Inc.',
+  companyName: 'AirWay Technologies Inc.',
   version: '3.0.0 Enterprise Edition',
   buildTag: '2026.11-ENTERPRISE',
-  supportEmail: 'support@aeropulse.org',
-  portalName: 'AeroPulse Safe Passage & Clean Air Portal',
+  supportEmail: 'support@airway.org',
+  portalName: 'AirWay Safe Passage & Clean Air Portal',
 
   // Contact info contract
   contact: {
-    email: 'contact@aeropulse.org',
-    support: 'support@aeropulse.org',
+    email: 'contact@airway.org',
+    support: 'support@airway.org',
   },
 
   // Core Engine
-  engineName: 'AeroPulse Community Engine',
-  engineBadge: 'Powered by AeroPulse Community Engine (BreatheWay™ Heritage)',
+  engineName: 'AirWay Community Engine',
+  engineBadge: 'Powered by AirWay Community Engine',
 
   // Compliance & Standards badges
   standards: [

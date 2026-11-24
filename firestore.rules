@@ -1,6 +1,6 @@
 rules_version = '2';
 // ============================================================
-// BreatheWay — Cloud Firestore Security Rules
+// AirWay — Cloud Firestore Security Rules
 // Enforces Per-User Isolation & Community Clean Air Pledges
 // ============================================================
 service cloud.firestore {

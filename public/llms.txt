@@ -1,10 +1,10 @@
-# BreatheWay — Hyperlocal Clean Air Telemetry & Exposure Management Platform
+# AirWay — Hyperlocal Clean Air Telemetry & Exposure Management Platform
 
 > Hyperlocal multi-pollutant telemetry, GenAI routine optimization, and low-exposure transit routing for resilient urban living. Built for PromptWars Challenge 6 with EPA breakpoints and zero-trust architecture.
 
 ## Overview
 
-BreatheWay is an enterprise-grade urban environmental intelligence platform designed to translate granular municipal sensor telemetry into actionable daily personal exposure decisions. The platform combines real-time multi-pollutant dispersion tracking, atmospheric thermal inversion detection, Dijkstra-optimized low-exposure transit corridors, CADR-based indoor air quality calculation, and AI-powered schedule optimization.
+AirWay is an enterprise-grade urban environmental intelligence platform designed to translate granular municipal sensor telemetry into actionable daily personal exposure decisions. The platform combines real-time multi-pollutant dispersion tracking, atmospheric thermal inversion detection, Dijkstra-optimized low-exposure transit corridors, CADR-based indoor air quality calculation, and AI-powered schedule optimization.
 
 ### Core Capabilities
 - **Hyperlocal Air Telemetry**: Real-time multi-pollutant monitoring (PM2.5, PM10, NO2, O3, CO, SO2) with microclimate tracking across five distinct municipal monitoring sectors.

@@ -2,7 +2,7 @@
 // src/components/shared/AlertBanner.tsx
 // Modern Assertive Smog & Inversion Hazard Notification Toast
 // User-Friendly, Non-Clipping, Minimizable & Dismissible
-// Per WCAG 2.2 AA & AeroPulse Modernized Design System
+// Per WCAG 2.2 AA & AirWay Modernized Design System
 // ============================================================
 
 import { memo, useState } from 'react';

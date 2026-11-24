@@ -51,7 +51,7 @@ export function AppContextProvider({ children }: { children: ReactNode }) {
   // Theme State: defaults to 'light' per user requirement
   const [theme, setThemeState] = useState<AppTheme>(() => {
     if (typeof window !== 'undefined') {
-      const saved = localStorage.getItem('breatheway_theme_v1');
+      const saved = localStorage.getItem('airway_theme_v1') || localStorage.getItem('breatheway_theme_v1');
       if (saved === 'dark' || saved === 'light') return saved;
     }
     return 'light';
@@ -66,7 +66,7 @@ export function AppContextProvider({ children }: { children: ReactNode }) {
         document.documentElement.classList.remove('dark');
       }
       try {
-        localStorage.setItem('breatheway_theme_v1', theme);
+        localStorage.setItem('airway_theme_v1', theme);
       } catch {
         // Ignored
       }

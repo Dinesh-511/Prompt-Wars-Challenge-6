@@ -1,6 +1,6 @@
 // ============================================================
 // src/components/Navigation/Header.tsx
-// Modern Enterprise Top Navigation System: AeroPulse
+// Modern Enterprise Top Navigation System: AirWay
 // Linear/Vercel/Stripe style horizontal command shell (No Side Bar)
 // Full WCAG 2.2 AA accessibility with keyboard navigation & ARIA landmarks
 // ============================================================
@@ -166,7 +166,7 @@ export const Header = memo(function Header() {
     <>
       <header
         role="banner"
-        aria-label="AeroPulse application header"
+        aria-label="AirWay application header"
         className="sticky top-0 z-40 bg-white/95 dark:bg-[#070b16]/95 backdrop-blur-2xl border-b border-slate-200/80 dark:border-slate-800/80 shadow-xs transition-colors duration-200"
       >
         {/* Tier 1: Main Brand, Workspace Breadcrumb & Utility Console */}

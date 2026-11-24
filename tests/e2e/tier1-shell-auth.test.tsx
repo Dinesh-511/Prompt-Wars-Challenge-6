@@ -156,7 +156,7 @@ describe('Tier 1 — Feature 05: Citizen & Operator Auth Modal (F5)', () => {
     const emailInput = screen.getByLabelText(/Work \/ Public Health Email/i) as HTMLInputElement;
     const passwordInput = screen.getByLabelText(/Security Key \/ Password/i) as HTMLInputElement;
 
-    expect(emailInput.value).toBe('director.chen@aeropulse.org');
+    expect(emailInput.value).toBe('director.chen@airway.org');
     expect(passwordInput.value).toBe('••••••••••••');
   });
 
@@ -193,7 +193,7 @@ describe('Tier 1 — Feature 05: Citizen & Operator Auth Modal (F5)', () => {
           expect.objectContaining({
             name: 'Dr. Sarah Chen',
             role: 'Municipal Resilience Director',
-            email: 'director.chen@aeropulse.org',
+            email: 'director.chen@airway.org',
           })
         );
       },
@@ -209,12 +209,12 @@ describe('Tier 1 — Feature 05: Citizen & Operator Auth Modal (F5)', () => {
     expect(screen.getByText('Account Recovery')).toBeInTheDocument();
 
     const emailInput = screen.getByLabelText(/Account Email/i) as HTMLInputElement;
-    fireEvent.change(emailInput, { target: { value: 'director.chen@aeropulse.org' } });
+    fireEvent.change(emailInput, { target: { value: 'director.chen@airway.org' } });
 
     fireEvent.click(screen.getByRole('button', { name: /Dispatch Recovery Token/i }));
 
     expect(
-      await screen.findByText(/(Password recovery instructions|Recovery link) dispatched to director\.chen@aeropulse\.org/i)
+      await screen.findByText(/(Password recovery instructions|Recovery link) dispatched to director\.chen@airway\.org/i)
     ).toBeInTheDocument();
   });
 });

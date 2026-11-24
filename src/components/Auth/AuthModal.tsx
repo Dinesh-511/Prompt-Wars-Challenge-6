@@ -51,11 +51,11 @@ export function AuthModal({ isOpen, onClose, onLoginSuccess }: AuthModalProps) {
   // Fast-Fill Helper for Evaluation
   const handleQuickFill = (role: 'operator' | 'citizen') => {
     if (role === 'operator') {
-      setEmail('director.chen@aeropulse.org');
+      setEmail('director.chen@airway.org');
       setPassword('••••••••••••');
       setFullName('Dr. Sarah Chen');
     } else {
-      setEmail('citizen.delhi@aeropulse.org');
+      setEmail('citizen.delhi@airway.org');
       setPassword('••••••••••••');
       setFullName('Aarav Sharma');
     }

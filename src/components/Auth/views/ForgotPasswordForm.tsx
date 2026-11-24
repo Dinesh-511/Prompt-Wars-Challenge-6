@@ -32,7 +32,7 @@ export function ForgotPasswordForm({
         required
         value={email}
         onChange={(e) => setEmail(e.target.value)}
-        placeholder="analyst@aeropulse.org"
+        placeholder="analyst@airway.org"
         leftIcon={<UserIcon size={16} />}
         helperText="We will dispatch a zero-knowledge recovery link and OTP code"
       />
